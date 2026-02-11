@@ -1,0 +1,32 @@
+# Build results
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.dotCover
+
+# Visual Studio
+.vs/
+*.sln.ide
+*.sln.docstates
+
+# Resharper
+_ReSharper.*/
+*.ReSharper
+
+# NuGet Packages
+packages/
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# Web
+wwwroot/lib/
+appsettings.Development.json
+appsettings.Staging.json
+
+# Logs
+*.log
+logs/
