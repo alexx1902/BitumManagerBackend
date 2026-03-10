@@ -19,5 +19,9 @@ namespace Bitum.Domain
         public string Note { get; set; }
 
         public string Recept {  get; set; }
+
+        public byte[] QrCodeImage { get; set; }
+
+
     }
 }

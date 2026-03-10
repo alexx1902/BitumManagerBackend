@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Application\Bitum.Application.csproj" />
     <ProjectReference Include="..\Bitum.Domain\Bitum.Domain.csproj" />
     <ProjectReference Include="..\Bitum.Presenters\Bitum.Presenters.csproj" />
   </ItemGroup>

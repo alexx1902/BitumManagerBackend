@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bitum.Contracts\Bitum.Contracts.csproj" />
-    <ProjectReference Include="..\Bitum.Domain\Bitum.Domain.csproj" />
+    <PackageReference Include="QRCoder" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Bitum.Application.csproj" />
   </ItemGroup>
 
 </Project>

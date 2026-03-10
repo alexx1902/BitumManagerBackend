@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36705.20
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11506.43 insiders
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitum.Domain", "Bitum.Domain\Bitum.Domain.csproj", "{7E34CEEB-DF57-4B49-B30E-8B162DFDAA99}"
 EndProject
@@ -16,7 +16,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitum.Contracts", "Bitum.Contracts\Bitum.Contracts.csproj", "{5A611BC0-8E34-40CA-9DE8-389756CD1B5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{C2A14695-7DCB-44DB-A072-0D9BD0392D3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitum.Application", "Application\Bitum.Application.csproj", "{C2A14695-7DCB-44DB-A072-0D9BD0392D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitum.Infrastructure", "Bitum.Infrastructure\Bitum.Infrastructure.csproj", "{8016015C-CBBA-4483-A01C-80FF05C69D62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{C2A14695-7DCB-44DB-A072-0D9BD0392D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2A14695-7DCB-44DB-A072-0D9BD0392D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2A14695-7DCB-44DB-A072-0D9BD0392D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8016015C-CBBA-4483-A01C-80FF05C69D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8016015C-CBBA-4483-A01C-80FF05C69D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8016015C-CBBA-4483-A01C-80FF05C69D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8016015C-CBBA-4483-A01C-80FF05C69D62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
